@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92a45f44ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="btn">
+        <h1 class="title">Rick and Morty</h1>
+        <h2 class="subtitle">collection</h2>
+    </div>
+    
+    <div class="menu mrg-lft">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar por nombre">
+        <select name="select" id="select-state">
+            <option value="Todos" selected>Todos</option>
+            <option value="Vivo">Vivo</option>
+            <option value="Muerto">Muerto</option>
+            <option value="Desconocido">Desconocido</option>
+        </select>
+        <!-- RB -->
+       
+    </div>
+
+    <div class="content mrg-lft">
+        <ul id="personajes" class="container">
+            
+        </ul>
+    </div>
+    <script src="functions.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: "schwitfy";
+    src: url(get_schwifty.ttf) format("truetype");
+}
+
+body { background-color: #240B36;}
+
+.title{ 
+    font-size: 4rem;
+    font-family: "schwitfy", sans-serif;
+    color: #16ACC8;
+    border: #D1DF4D;
+    text-shadow: 3px 3px 3px #D1DF4D, 0 0 1em blue, 0 0 0.2em blue;
+    margin: 0;
+    
+}
+.subtitle{
+    font-size: 1.2rem;
+    font-family: fantasy;
+    color: white;
+
+    text-shadow: #D1DF4D 1px 0 10px;
+    align-self: flex-end;
+}
+
+.btn{
+    display: flex;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.mrg-lft{
+    margin-left: 20px;
+}
+
+
+
+/* CARD */
+.card {
+    background-color: #DB9065;
+    display: inline-block;
+    border: solid rgb(0, 0, 0) 3px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+    transition: .5s;
+    transition-timing-function: ease-in;
+    transition: 0.25s;
+   
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;  
+    user-select: none; 
+ 
+ 
+}
+
+
+.card:hover { scale: 1.03; }
+
+.card > img{
+
+    width: 170px;
+    border: 1px solid #ddd;
+    border-radius: 20%;
+    filter: drop-shadow(8px 8px 10px #240B36);
+    align-items: center;
+}
+
+.container{
+    display: inline;
+}
+
+.card > h3 { 
+    font-weight: 200;
+    font-size: 1.2rem; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: #080e46 5px 0 5px;
+   
+
+
+   
+  
+}
+
+.card > .specie{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #240b36da;
+    text-align: center;
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.60);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 103px;
+    margin-left: 40px;
+}
+
+
+.green{  color: green; }
+.yellow{  color: yellow; }
+.red{  color: red; }
+
+.none{ display: none;}
+
+
+
+/* RB */
+
